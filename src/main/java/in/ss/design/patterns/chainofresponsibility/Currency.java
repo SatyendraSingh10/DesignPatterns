@@ -1,12 +1,10 @@
 package in.ss.design.patterns.chainofresponsibility;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.NonNull;
-import lombok.RequiredArgsConstructor;
 
 @Data
-@RequiredArgsConstructor
+@AllArgsConstructor
 class Currency {
-    @NonNull
     private int amount;
 }
