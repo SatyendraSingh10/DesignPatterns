@@ -5,7 +5,7 @@ class MainTest {
     public static void main(String[] args) {
 
         ATMMoneyDispenser atmMoneyDispenser = new ATMMoneyDispenser();
-        atmMoneyDispenser.runDispenser(new Currency(2519));
+        atmMoneyDispenser.runDispenser(new Currency(2580));
 
     }
 }

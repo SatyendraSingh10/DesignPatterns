@@ -2,8 +2,6 @@ package in.ss.design.patterns.chainofresponsibility;
 
 class ATMMoneyDispenser {
 
-    private final int MINIMUM_CURRENCY_VALUE = 10;
-
     private final MoneyDispenseChain dispenseChain;
 
     //initialize ATMMoneyDispenser
@@ -36,6 +34,7 @@ class ATMMoneyDispenser {
     }
 
     private boolean isAmountValid(Currency currency) {
+        int MINIMUM_CURRENCY_VALUE = 10;
         return currency.getAmount() % MINIMUM_CURRENCY_VALUE == 0;
     }
 }

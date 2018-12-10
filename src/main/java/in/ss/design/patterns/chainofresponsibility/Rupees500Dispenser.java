@@ -2,8 +2,6 @@ package in.ss.design.patterns.chainofresponsibility;
 
 public class Rupees500Dispenser implements MoneyDispenseChain {
 
-    private final int CURRENCY_VALUE = 500;
-
     private MoneyDispenseChain dispenseChain;
 
     @Override
@@ -13,6 +11,7 @@ public class Rupees500Dispenser implements MoneyDispenseChain {
 
     @Override
     public void dispenseMoney(Currency currency) {
+        int CURRENCY_VALUE = 500;
         if (currency.getAmount() >= CURRENCY_VALUE) {
             int counts = currency.getAmount() / CURRENCY_VALUE;
             int remainder = currency.getAmount() % CURRENCY_VALUE;
