@@ -5,9 +5,9 @@ public class StockObserver implements Observer {
     private double ibmsPrice;
     private double applesPrice;
     private double googlesPrice;
-    private int observerId;
+    private final int observerId;
 
-    private Subject stockGrabber;
+    private final Subject stockGrabber;
 
     public StockObserver(Subject stockGrabber) {
         this.stockGrabber = stockGrabber;

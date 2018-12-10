@@ -1,6 +1,6 @@
 package in.ss.design.patterns.strategy;
 
-public class Dog extends Animal {
+class Dog extends Animal {
 
     public Dog(String name, double height, int weight) {
         super(name, height, weight);

@@ -1,6 +1,6 @@
 package in.ss.design.patterns;
 
-public class WorkWithAnimals {
+class WorkWithAnimals {
 
     public static void main(String[] args) {
     }

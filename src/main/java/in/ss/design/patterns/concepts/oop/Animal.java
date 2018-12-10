@@ -5,7 +5,7 @@ import lombok.Data;
 import lombok.NonNull;
 
 @Data
-abstract public class Animal {
+abstract class Animal {
     @NonNull
     private String name;
     @NonNull

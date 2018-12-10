@@ -1,6 +1,6 @@
 package in.ss.design.patterns.observer;
 
-public class GrabStocks {
+class GrabStocks {
 
     public static void main(String[] args) {
         StockGrabber stockGrabber = new StockGrabber();

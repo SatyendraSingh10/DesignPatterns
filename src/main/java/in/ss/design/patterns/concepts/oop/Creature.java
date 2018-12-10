@@ -1,10 +1,10 @@
 package in.ss.design.patterns.concepts.oop;
 
 
-abstract public class Creature {
-    protected String name;
-    protected int weight;
-    protected String sound;
+abstract class Creature {
+    String name;
+    int weight;
+    String sound;
 
     public abstract String getSound();
 

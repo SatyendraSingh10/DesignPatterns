@@ -5,11 +5,11 @@ import lombok.SneakyThrows;
 import java.text.DecimalFormat;
 import java.util.Objects;
 
-public class GetTheStock implements Runnable {
-    private int startTime;
-    private String stock;
+class GetTheStock implements Runnable {
+    private final int startTime;
+    private final String stock;
     private double price;
-    private Subject stockgrabber;
+    private final Subject stockgrabber;
 
     public GetTheStock(Subject stockgrabber, int startTime, String newStock, double newPrice) {
         this.stockgrabber = stockgrabber;

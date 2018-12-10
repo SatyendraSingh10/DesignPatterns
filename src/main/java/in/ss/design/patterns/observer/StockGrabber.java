@@ -7,7 +7,7 @@ import java.util.ArrayList;
 @Getter
 public class StockGrabber implements Subject {
 
-    private ArrayList<Observer> observers;
+    private final ArrayList<Observer> observers;
 
     private double ibmsPrice;
     private double applesPrice;
