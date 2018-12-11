@@ -1,6 +1,6 @@
 package in.ss.design.patterns.chainofresponsibility;
 
-class MainTest {
+class CORMainTest {
 
     public static void main(String[] args) {
 
