@@ -1,2 +1,2 @@
 # DesignPatternsExamples
-Project module for design patterns example.
+Project module for design patterns examples.
